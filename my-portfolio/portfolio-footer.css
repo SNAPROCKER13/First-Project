@@ -165,6 +165,7 @@ textarea:focus{
 .link-page>ul{
     list-style: none;
     padding: 0;
+    line-height: 60px;
 }
 .link-page>ul>li>a{
     text-decoration: none;
@@ -181,13 +182,13 @@ textarea:focus{
 }
 
 .address{
-    padding: 13px;
+    padding: 13px 13px 13px 0;
     margin-bottom: 30px;
 }
 
 .connect{
     border-top: 1px solid white;
-    padding: 13px;
+    padding: 13px 13px 13px 0;
     margin-bottom: 30px;
 }
 

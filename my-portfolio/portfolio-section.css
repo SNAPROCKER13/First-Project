@@ -1,7 +1,8 @@
 section{
-    height: 100%;
     display: grid;
-    grid-template-rows:50% 50%;
+    height: 100vh;
+    grid-template-rows:1fr 1fr;
+    padding: 10px 0;
 }
 
 .about{
@@ -12,24 +13,22 @@ section{
 }
 
 .detail-me{
-    flex:2;
+    flex:1;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     margin: 13px;
-    height: 265px;
 }
 
 .detail-me>p{
-    max-width: 975px;
+    width: 100%;
 }
 
 .pic-about{
     flex:1;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     padding: 50px 0;
 }
@@ -42,36 +41,59 @@ section{
 .portfolio{
     display: grid;
     background-color: #383838;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 1fr 5fr;
     padding: 0 80px;
+    height: 102%;
 }
 
 .portfolio>h1{
     color: white;
-}
+} 
 
 .pic-portfolio{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 279px 279px 279px 279px;
+    height: 350px;
     gap: 13px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .item-pic{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     color: white;
-    width: 100%;
 }
 
 
 .item-pic>img{
-    width: 100%;
-    height: 265px;
+    width: 279px;
     border-radius: 13px;
 }
 
 .item-pic>b{
     padding: 13px;
+}
+
+
+@media screen and (max-width:992px){
+    section{
+        height: 116vh;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .detail-me{
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio{
+        grid-template-rows: 1fr 11fr;
+        height: 102%;
+    }
+    .pic-portfolio{
+        grid-template-columns:  279px 279px;
+        justify-content: space-around;
+        height: 98%;
+    }
 }
