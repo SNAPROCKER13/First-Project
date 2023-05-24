@@ -39,6 +39,19 @@ footer{
     outline: none;
 }
 
+.group-data-name>.data-name>input{
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 35px;
+}
+
+.group-data-name>.data-name>input:focus{
+    border-bottom-color: #7DB9B6;
+    outline: none;
+}
+
 form{
     padding: 13px;
 }
