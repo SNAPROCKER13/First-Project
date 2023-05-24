@@ -144,13 +144,7 @@ nav>a:nth-child(n+2):hover{
         height: 85vh;
     }
     .dropdown>.link-dropdown>a{
-       width: 96%;
-    }
-}
-
-@media screen and (max-width:576px){
-    .dropdown>.link-dropdown{
-        width: 100%;
+        flex:1;
     }
 }
 
