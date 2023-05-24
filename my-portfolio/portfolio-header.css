@@ -110,9 +110,10 @@ nav>a:nth-child(n+2):hover{
         display: flex;
         flex-direction: column;
         background-color: rgba(56,56,56,0.5);
-        width: 350px;
+        width: 385px;
         position: fixed; 
         top: 80px;
+        height: 82vh;
     }
     .dropdown>.link-dropdown>a{
         color:white;
@@ -140,14 +141,11 @@ nav>a:nth-child(n+2):hover{
     }
     .dropdown>.link-dropdown{
         width: 90%;
-        height: 100vh;
+        height: 85vh;
     }
     .dropdown>.link-dropdown>a{
        width: 96%;
     }
-    /* .dropdown>div:first-child{
-        display: none;
-    } */
 }
 
 @media screen and (max-width:576px){
