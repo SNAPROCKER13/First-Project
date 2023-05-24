@@ -79,7 +79,7 @@ section{
 
 @media screen and (max-width:992px){
     section{
-        height: 160vh;
+        height: 162vh;
     }
     .about{
         flex-direction: column;
@@ -105,6 +105,6 @@ section{
         grid-template-columns:  1fr;
     }
     section{
-        height: 175vh;
+        height: 231vh;
     }
 }

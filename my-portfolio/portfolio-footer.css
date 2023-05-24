@@ -200,3 +200,38 @@ textarea:focus{
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:768px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    .data{
+        border-right:none;
+        border-bottom:1px solid rgb(56,56,56,0.3);
+    }
+    .resume{
+        padding: 0;
+        margin: 135px 0;
+    }
+    .link{
+        grid-template-columns: 1fr;
+    }
+    .about-me{
+        border-bottom: 1px solid white;
+        border-right: none;
+        padding-bottom: 40px;
+    }
+    .link-page{
+        padding-left: 0;
+        border-bottom: 1px solid white;
+        border-right: none;
+    }
+    .follow{
+        padding-left: 0;
+    }
+    .link-page>ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
