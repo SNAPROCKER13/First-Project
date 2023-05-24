@@ -90,21 +90,37 @@ section{
     }
     .portfolio{
         grid-template-rows: 1fr 11fr;
-        height: 101%;
+        height: 95vh;
     }
     .pic-portfolio{
         grid-template-columns:  1fr 1fr;
         justify-content: space-around;
-        height: 98%;
+        height: 82vh;
         row-gap: 0;
     }
 }
 
 @media screen and (max-width:768px){
+    section{
+        height: 240vh;
+    }
     .pic-portfolio{
         grid-template-columns:  1fr;
     }
-    section{
-        height: 231vh;
+    .portfolio{
+        height: 165vh;
     }
+}
+
+@media screen and (max-width:576px){
+    section{
+        height: 252vh;
+    }
+    .portfolio{
+        height: 169vh;
+    }
+}
+
+@media screen and (max-width:100px){
+    
 }
