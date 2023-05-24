@@ -114,9 +114,9 @@ section{
 
 @media screen and (max-width:576px){
     section{
-        height: 259vh;
+        height: 262vh;
     }
     .portfolio{
-        height: 169vh;
+        height: 171vh;
     }
 }
