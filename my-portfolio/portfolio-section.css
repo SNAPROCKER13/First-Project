@@ -1,5 +1,4 @@
 section{
-    height: 100vh;
     grid-template-rows:1fr 1fr;
     padding: 10px 0;
     display: grid;
@@ -78,9 +77,6 @@ section{
 
 
 @media screen and (max-width:992px){
-    section{
-        height: 345vh;
-    }
     .about{
         flex-direction: column;
     }
@@ -90,33 +86,18 @@ section{
     }
     .portfolio{
         grid-template-rows: 1fr 11fr;
-        height: 185vh;
+        padding: 50px 80px;
+        box-sizing: border-box;
     }
     .pic-portfolio{
         grid-template-columns:  1fr 1fr;
         justify-content: space-around;
-        height: 82vh;
         row-gap: 0;
     }
 }
 
 @media screen and (max-width:768px){
-    section{
-        height: 240vh;
-    }
     .pic-portfolio{
         grid-template-columns:  1fr;
-    }
-    .portfolio{
-        height: 165vh;
-    }
-}
-
-@media screen and (max-width:576px){
-    section{
-        height: 262vh;
-    }
-    .portfolio{
-        height: 171vh;
     }
 }
